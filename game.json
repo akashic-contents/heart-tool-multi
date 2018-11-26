@@ -1,0 +1,40 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"heart": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/heart.png"
+		},
+		"spade": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/spade.png"
+		},
+		"sparkle": {
+			"type": "image",
+			"width": 64,
+			"height": 64,
+			"path": "image/sparkle.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"single",
+				"multi"
+			]
+		}
+	}
+}
