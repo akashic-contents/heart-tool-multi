@@ -17,5 +17,12 @@
     "@akashic/akashic-sandbox": "~0.13.11",
     "eslint": "~5.4.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": ">=11.11.0",
+      "onFail": "error"
+    }
+  }
 }
